@@ -11,6 +11,11 @@ Release date: 2023-09-26
   Closes #2305
   Closes pylint-dev/pylint#9069
 
+* ``igetattr()`` returns the last same-named function in a class (instead of
+  the first). This avoids false positives in pylint with ``@overload``.
+
+  Closes #1015
+  Refs pylint-dev/pylint#4696
 
 What's New in astroid 2.15.7?
 =============================
