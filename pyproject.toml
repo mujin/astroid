@@ -8,8 +8,8 @@ name = "astroid"
 description = "An abstract syntax tree for Python with inference support."
 readme = "README.rst"
 keywords = [ "abstract syntax tree", "python", "static code analysis" ]
-license = "LGPL-2.1-or-later"
-license-files = [ "LICENSE", "CONTRIBUTORS.txt" ]
+# license = "LGPL-2.1-or-later"
+# license-files = [ "LICENSE", "CONTRIBUTORS.txt" ]
 
 requires-python = ">=3.9.0"
 classifiers = [
